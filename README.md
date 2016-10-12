@@ -17,4 +17,7 @@ mvn clean install
 ```
 
 ## Getting Started
-The cli tool currently support subtitle files (SRT) as input 
+The cli tool currently support subtitle files (SRT) as input, output is written into a file -> output.txt.
+```
+java -jar cli-1.0-SNAPSHOT-jar-with-dependencies.jar <path to .srt file>
+```
