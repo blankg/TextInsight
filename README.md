@@ -6,15 +6,15 @@ TextInsight uses [Stanford CoreNLP](http://stanfordnlp.github.io/CoreNLP/) and [
 
 ## Build
 ### NLP Library
-'''
+```
 cd nlp
 mvn clean install
-'''
+```
 ### Command line tool
-'''
+```
 cd cli
 mvn clean install
-'''
+```
 
 ## Getting Started
 The cli tool currently support subtitle files (SRT) as input 
