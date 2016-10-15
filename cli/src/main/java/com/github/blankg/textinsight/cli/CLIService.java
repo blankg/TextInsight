@@ -25,9 +25,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-/**
- * Created by I031231 on 25/09/2016.
- */
+
 public class CLIService {
 
     public static void main(String[] args) {
