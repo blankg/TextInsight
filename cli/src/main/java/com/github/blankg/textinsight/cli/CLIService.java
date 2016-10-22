@@ -106,6 +106,11 @@ public class CLIService {
                             }
                             content = content.append(IOUtils.eolChar);
                         }
+
+                        // print sentiment
+                        content = content.append("Sentiment: ");
+                        content = content.append(line.getSentiment());
+                        content = content.append(IOUtils.eolChar);
 //							allNouns.add(line.getFrom() + "-->" + line.getTo() + IOUtils.eolChar);
 //							allNouns.add(Arrays.toString(nouns.toArray()) + IOUtils.eolChar);
                     }
