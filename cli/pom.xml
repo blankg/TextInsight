@@ -50,16 +50,6 @@
             <artifactId>nlp</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>net.sf.extjwnl</groupId>
-            <artifactId>extjwnl</artifactId>
-            <version>1.9.1</version>
-        </dependency>
-        <dependency>
-            <groupId>net.sf.extjwnl</groupId>
-            <artifactId>extjwnl-utilities</artifactId>
-            <version>1.9.1</version>
-        </dependency>
     </dependencies>
 
 
